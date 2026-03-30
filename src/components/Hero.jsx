@@ -60,7 +60,7 @@ export default function Hero() {
               Get In Touch
             </a>
             <a
-              href="/Abdalaziz-CV.pdf"
+              href="./Abdalaziz-CV.pdf"
               download="Abdalaziz-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
