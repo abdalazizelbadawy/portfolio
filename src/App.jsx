@@ -27,7 +27,7 @@ function App() {
             href="#home"
             className="text-2xl font-bold tracking-tighter hover:text-blue-400 transition-colors"
           >
-            A<span className="text-blue-500">.</span>E
+            A<span className="text-blue-500">.</span>B
           </a>
           <div className="hidden md:flex gap-8 text-sm font-medium text-slate-300">
             <a

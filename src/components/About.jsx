@@ -34,9 +34,14 @@ export default function About() {
             </p>
             <p>
               Currently, I'm working at{" "}
-              <span className="text-cyan-400 font-medium border-b border-cyan-400/30 pb-0.5">
+              <a
+                href="https://codecrafteg.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 font-medium border-b border-cyan-400/30 pb-0.5 hover:text-cyan-300 hover:border-cyan-300 transition-all duration-300 cursor-pointer"
+              >
                 Code Craft
-              </span>
+              </a>
               , where I focus on crafting seamless, cross-platform mobile
               experiences that solve real-world problems.
             </p>

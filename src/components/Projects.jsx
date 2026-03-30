@@ -4,28 +4,31 @@ import { Code, ExternalLink, Smartphone } from "lucide-react";
 
 const projects = [
   {
-    title: "BeReal Clone",
+    title: "XO Game",
     description:
-      "A fully functional cross-platform mobile clone of the popular BeReal app. Features simultaneous dual-camera capture, push notifications, and daily interactive feeds.",
-    tech: ["React Native", "Firebase", "TypeScript", "Expo"],
-    github: "https://github.com/abdalazizelbadawy/bereal-clone",
-    icon: <Smartphone className="text-blue-400" size={32} />,
+      "A pure JavaScript and HTML implementation of the classic Tic Tac Toe game with core game logic.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://abdalazizelbadawy.github.io/xo-project/",
+    github: "https://github.com/abdalazizelbadawy/xo-project.git",
+    icon: <Code className="text-blue-400" size={32} />,
   },
   {
-    title: "E-Commerce App",
+    title: "Smart Calculator",
     description:
-      "A modern mobile shopping experience with a sleek UI, integrated payment gateway, product filtering, and real-time inventory tracking.",
-    tech: ["React Native", "Redux Toolkit", "Node.js", "Stripe"],
-    github: "https://github.com/abdalazizelbadawy",
-    icon: <Smartphone className="text-cyan-400" size={32} />,
+      "A functional web-based calculator that supports basic arithmetic operations with a clean UI.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://abdalazizelbadawy.github.io/calculator-project/",
+    github: "https://github.com/abdalazizelbadawy/calculator-project.git",
+    icon: <Code className="text-cyan-400" size={32} />,
   },
   {
-    title: "Fitness Tracker",
+    title: "Legacy Portfolio",
     description:
-      "A personal workout companion app that records routines, tracks progressive overload, and visualizes fitness data over time.",
-    tech: ["React Native", "SQLite", "Reanimated", "Chart.js"],
-    github: "https://github.com/abdalazizelbadawy",
-    icon: <Smartphone className="text-indigo-400" size={32} />,
+      "My first personal website project, showcasing my early journey and growth in web development.",
+    tech: ["HTML", "CSS", "Portfolio"],
+    demo: "https://abdalazizelbadawy.github.io/website-project/",
+    github: "https://github.com/abdalazizelbadawy/website-project.git",
+    icon: <Code className="text-indigo-400" size={32} />,
   },
 ];
 
@@ -39,11 +42,11 @@ export default function Projects() {
         transition={{ duration: 0.8 }}
       >
         <div className="flex items-center gap-4 mb-16">
-          <div className="h-[1px] flex-grow bg-slate-800 mr-4 max-w-sm hidden md:block"></div>
+          <div className="h-px grow bg-slate-800 mr-4 max-w-sm hidden md:block"></div>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-100 tracking-tight text-center md:text-left">
             Featured Projects
           </h2>
-          <div className="h-[1px] flex-grow bg-slate-800 ml-4 max-w-sm"></div>
+          <div className="h-px grow bg-slate-800 ml-4 max-w-sm"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -63,16 +66,20 @@ export default function Projects() {
                 </div>
                 <div className="flex gap-3">
                   <a
-                    href={project.github}
+                    href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-400 hover:text-blue-400 transition-colors"
+                    title="Live Demo"
                   >
                     <Code size={22} />
                   </a>
                   <a
-                    href="#"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-400 hover:text-cyan-400 transition-colors"
+                    title="GitHub Repository"
                   >
                     <ExternalLink size={22} />
                   </a>
@@ -83,7 +90,7 @@ export default function Projects() {
                 {project.title}
               </h3>
 
-              <p className="text-slate-400 leading-relaxed mb-8 flex-grow">
+              <p className="text-slate-400 leading-relaxed mb-8 grow">
                 {project.description}
               </p>
 

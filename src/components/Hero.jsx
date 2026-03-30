@@ -60,10 +60,11 @@ export default function Hero() {
               Get In Touch
             </a>
             <a
-              href="/cv.pdf"
+              href="/Abdalaziz-CV.pdf"
+              download="Abdalaziz-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-transparent text-blue-400 border border-blue-500 hover:bg-blue-500/10 rounded-full font-medium transition-colors flex items-center gap-2"
+              className="px-8 py-3 bg-transparent text-blue-400 border border-blue-500 rounded-full hover:bg-blue-500/10 transition-all duration-300 flex items-center justify-center gap-2"
             >
               Download CV
             </a>

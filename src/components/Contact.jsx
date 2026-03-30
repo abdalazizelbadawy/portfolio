@@ -25,10 +25,8 @@ export default function Contact() {
           </p>
 
           <a
-            href="https://www.linkedin.com/in/abdalaziz-elbadawy-b1a8063b7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium text-lg transition-all shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:-translate-y-1"
+            href="mailto:abdalazizelbadawy11@gmail.com"
+            className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/20"
           >
             Say Hello
           </a>
@@ -59,10 +57,10 @@ export default function Contact() {
               <User size={24} />
             </a>
             <a
-              href="mailto:abdalazizelbadawy@example.com"
+              href="mailto:abdalazizelbadawy11@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-cyan-400 transition-colors p-2 hover:bg-slate-800 rounded-full"
+              className="text-slate-400 hover:text-cyan-400 transition-colors p-2 hover:bg-slate-800 rounded-lg"
             >
               <Mail size={24} />
             </a>
