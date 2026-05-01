@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import profileImg from "../assets/profile.png";
+import resume from "../../public/Abdalaziz-CV.pdf";
 
 export default function Hero() {
   return (
